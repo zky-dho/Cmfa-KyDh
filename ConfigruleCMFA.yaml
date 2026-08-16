@@ -32,14 +32,14 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: kydh
+  - name: AKUN1
     server: www.sushiroll.co.id
     port: 443
     type: vless
     uuid: f2259b5d-0c6b-4a6d-89ff-70e18b9f41b6
     alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
     servername: klyro-sgvip.gachorr.web.id
     network: ws
@@ -85,7 +85,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - kydh
+      - AKUN1
       - AKUN2
       - AKUN3
 
@@ -94,7 +94,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - kydh
+      - AKUN1
       - AKUN2
       - AKUN3
       
