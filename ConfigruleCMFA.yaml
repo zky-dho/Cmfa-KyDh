@@ -52,7 +52,7 @@ proxies:
     server: web.poe.garena.com
     port: 443
     type: vless
-    uuid: 9cf9a9b0-2e2e-45bd-ac6f-5eaa44e30cfe
+    uuid: f2259b5d-0c6b-4a6d-89ff-70e18b9f41b6
     cipher: auto
     tls: true
     skip-cert-verify: true
