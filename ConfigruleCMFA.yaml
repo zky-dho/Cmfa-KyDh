@@ -32,10 +32,10 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: AKUN1
-    server: quiz.int.vidio.com
-    port: 80
-    type: vmess
+  - name: kydh
+    server: www.sushiroll.co.id
+    port: 443
+    type: vless
     uuid: 396415b0-6f7d-4df3-9d50-1a3ff9115b1a
     alterId: 0
     cipher: auto
@@ -44,7 +44,7 @@ proxies:
     servername: id2-ray.ipservers.xyz
     network: ws
     ws-opts:
-      path: /JAGOANSSH/
+      path: /vless
       headers:
         Host: id2-ray.ipservers.xyz
     udp: true
