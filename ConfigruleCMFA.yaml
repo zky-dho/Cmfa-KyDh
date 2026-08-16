@@ -34,8 +34,8 @@ dns:
 proxies:
   - name: AKUN1
     server: www.sushiroll.co.id
-    port: 443
-    type: vless
+    port: 80
+    type: vmess
     uuid: f2259b5d-0c6b-4a6d-89ff-70e18b9f41b6
     alterId: 0
     cipher: auto
@@ -44,7 +44,7 @@ proxies:
     servername: klyro-sgvip.gachorr.web.id
     network: ws
     ws-opts:
-      path: /vless
+      path: /trojan
       headers:
         Host: klyro-sgvip.gachorr.web.id
     udp: true
@@ -64,19 +64,19 @@ proxies:
         Host: klyro-sgvip.gachorr.web.id
     udp: true
   - name: AKUN3
-    server: quiz.int.vidio.com
+    server: www.sushiroll.co.id
     port: 443
     type: vless
-    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
+    uuid: f2259b5d-0c6b-4a6d-89ff-70e18b9f41b6
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id2vless.ipservers.xyz
+    servername: klyro-sgvip.gachorr.web.id
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: id2vless.ipservers.xyz
+        Host: klyro-sgvip.gachorr.web.id
     udp: true
 
 proxy-groups:
