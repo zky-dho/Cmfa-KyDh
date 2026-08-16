@@ -34,7 +34,7 @@ dns:
 proxies:
   - name: AKUN1
     server: www.sushiroll.co.id
-    port: 80
+    port: 443
     type: vmess
     uuid: f2259b5d-0c6b-4a6d-89ff-70e18b9f41b6
     alterId: 0
