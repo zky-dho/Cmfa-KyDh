@@ -48,7 +48,7 @@ proxies:
       headers:
         Host: klyro-sgvip.gachorr.web.id
     udp: true
-  - name: kydh
+  - name: AKUN2
     server: web.poe.garena.com
     port: 443
     type: vless
@@ -86,7 +86,7 @@ proxy-groups:
     interval: 300
     proxies:
       - kydh
-      - kydh
+      - AKUN2
       - AKUN3
 
   - name: MIX-X
@@ -95,7 +95,7 @@ proxy-groups:
     interval: 300
     proxies:
       - kydh
-      - kydh
+      - AKUN2
       - AKUN3
       
   - name: IKLAN
