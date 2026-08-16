@@ -39,29 +39,29 @@ proxies:
     uuid: 396415b0-6f7d-4df3-9d50-1a3ff9115b1a
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
-    servername: id2-ray.ipservers.xyz
+    servername: klyro-sgvip.gachorr.web.id
     network: ws
     ws-opts:
       path: /vless
       headers:
-        Host: id2-ray.ipservers.xyz
+        Host: klyro-sgvip.gachorr.web.id
     udp: true
-  - name: AKUN2
-    server: quiz.int.vidio.com
+  - name: kydh
+    server: web.poe.garena.com
     port: 443
     type: vless
     uuid: 9cf9a9b0-2e2e-45bd-ac6f-5eaa44e30cfe
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: id1vless.ipservers.xyz
+    servername: klyro-sgvip.gachorr.web.id
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vless
       headers:
-        Host: id1vless.ipservers.xyz
+        Host: klyro-sgvip.gachorr.web.id
     udp: true
   - name: AKUN3
     server: quiz.int.vidio.com
@@ -74,7 +74,7 @@ proxies:
     servername: id2vless.ipservers.xyz
     network: ws
     ws-opts:
-      path: /jagoanssh
+      path: /vless
       headers:
         Host: id2vless.ipservers.xyz
     udp: true
@@ -85,8 +85,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AKUN1
-      - AKUN2
+      - kydh
+      - kydh
       - AKUN3
 
   - name: MIX-X
@@ -94,8 +94,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AKUN1
-      - AKUN2
+      - kydh
+      - kydh
       - AKUN3
       
   - name: IKLAN
