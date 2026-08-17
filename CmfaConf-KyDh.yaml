@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: AKUN1
+  - name: KyDh1
     server: www.sushiroll.co.id
     port: 80
     type: vmess
@@ -48,7 +48,7 @@ proxies:
       headers:
         Host: klyro-sgvip.gachorr.web.id
     udp: true
-  - name: AKUN2
+  - name: KyDh2
     server: web.poe.garena.com
     port: 443
     type: vless
@@ -63,7 +63,7 @@ proxies:
       headers:
         Host: klyro-sgvip.gachorr.web.id
     udp: true
-  - name: AKUN3
+  - name: KyDh3
     server: www.sushiroll.co.id
     port: 443
     type: vless
@@ -85,18 +85,18 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AKUN1
-      - AKUN2
-      - AKUN3
+      - KyDh1
+      - KyDh2
+      - KyDh3
 
   - name: MIX-X
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AKUN1
-      - AKUN2
-      - AKUN3
+      - KyDh1
+      - KyDh2
+      - KyDh3
       
   - name: IKLAN
     type: select
