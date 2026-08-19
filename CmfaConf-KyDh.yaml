@@ -33,7 +33,7 @@ dns:
     - 112.215.203.254
 proxies:
   - name: KyDh1
-    server: www.sushiroll.co.id
+    server: web.poe.garena.com
     port: 443
     type: vmess
     uuid: e17bc941-ebef-4c51-af66-409de3267ac8
@@ -41,7 +41,7 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: klyro-sgvip.gachorr.web.id
+    servername: trial.tokovpn.com
     network: ws
     ws-opts:
       path: /vmess
