@@ -34,19 +34,19 @@ dns:
 proxies:
   - name: KyDh1
     server: www.sushiroll.co.id
-    port: 80
+    port: 443
     type: vmess
-    uuid: f2259b5d-0c6b-4a6d-89ff-70e18b9f41b6
+    uuid: e17bc941-ebef-4c51-af66-409de3267ac8
     alterId: 0
     cipher: auto
-    tls: false
+    tls: true
     skip-cert-verify: true
     servername: klyro-sgvip.gachorr.web.id
     network: ws
     ws-opts:
-      path: /trojan
+      path: /vmess
       headers:
-        Host: klyro-sgvip.gachorr.web.id
+        Host: trial.tokovpn.com
     udp: true
   - name: KyDh2
     server: web.poe.garena.com
