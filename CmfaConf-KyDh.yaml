@@ -49,7 +49,7 @@ proxies:
         Host: trial.tokovpn.com
     udp: true
   - name: KyDh2
-    server: web.poe.garena.com
+    server: 104.17.70.206
     port: 443
     type: vless
     uuid: f2259b5d-0c6b-4a6d-89ff-70e18b9f41b6
