@@ -33,20 +33,20 @@ dns:
     - 112.215.203.254
 proxies:
   - name: KyDh1
-    server: web.poe.garena.com
+    server: 104.17.70.206
     port: 443
     type: vmess
-    uuid: e17bc941-ebef-4c51-af66-409de3267ac8
+    uuid: 45912db8-261d-462d-8e7e-4e2c485a8ebe
     alterId: 0
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: trial.tokovpn.com
+    servername: klyro-sgvip.gachorr.web.id
     network: ws
     ws-opts:
       path: /vmess
       headers:
-        Host: trial.tokovpn.com
+        Host: klyro-sgvip.gachorr.web.id
     udp: true
   - name: KyDh2
     server: 104.17.70.206
