@@ -33,7 +33,7 @@ dns:
     - 112.215.203.254
 proxies:
   - name: KyDh1
-    server: 104.17.70.206
+    server: edu.udemy.com
     port: 443
     type: vmess
     uuid: 45912db8-261d-462d-8e7e-4e2c485a8ebe
