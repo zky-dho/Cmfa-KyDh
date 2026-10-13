@@ -51,6 +51,22 @@ proxies:
   - name: KyDh2
     server: 104.17.70.206
     port: 443
+    type: vmess
+    uuid: 45912db8-261d-462d-8e7e-4e2c485a8ebe
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: klyro-sgvip.gachorr.web.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: klyro-sgvip.gachorr.web.id
+    udp: true
+  - name: KyDh3
+    server: 104.17.70.206
+    port: 443
     type: vless
     uuid: f2259b5d-0c6b-4a6d-89ff-70e18b9f41b6
     cipher: auto
@@ -63,7 +79,7 @@ proxies:
       headers:
         Host: klyro-sgvip.gachorr.web.id
     udp: true
-  - name: KyDh3
+  - name: KyDh4
     server: www.sushiroll.co.id
     port: 443
     type: vless
